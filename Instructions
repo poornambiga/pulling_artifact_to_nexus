@@ -1,4 +1,5 @@
-Create a settings.xml file in users home directory
+Create a settings.xml file in users home directory/.m2 folder
+**************************************************************
 <settings>
  <servers>
    <server>
