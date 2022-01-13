@@ -1,0 +1,15 @@
+Create a settings.xml file in users home directory
+<settings>
+ <servers>
+   <server>
+      <id>my-repo-id</id>
+      <username>admin</username>
+      <password>1234</password>
+   </server>
+ </servers>
+</settings>
+
+
+id ---> repository id from pom.xml
+username-----> nexus username
+password-----> nexus password
