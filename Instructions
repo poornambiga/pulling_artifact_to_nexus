@@ -21,3 +21,14 @@ java version used
 install both packages
 openjdjk8-headless
 openjdk8
+
+Create docker image using dockerfile
+
+Pulling docker image to nexus
+*****************************
+create a docker hosted repository in nexus with port 1111
+docker login localhost:1111
+docker tag  simple-java-app:latest localhost:1111/my-app:latest
+docker push localhost:1111/my-app
+
+
