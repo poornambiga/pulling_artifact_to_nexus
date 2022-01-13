@@ -1,0 +1,15 @@
+To list Repositories
+********************
+curl -u admin:1234 -X get 'localhost:8081/service/rest/v1/repositories'
+
+To list components of repository
+********************************
+curl -u admin:1234 -X get 'localhost:8081/service/rest/v1/coponents?repository=maven-snapshots'
+
+we can get download url from  list of components which can be used to download components/assets
+
+To list all assets of particular component
+*****************************************
+curl -u admin:1234 -X get 'localhost:8081/service/rest/v1/components/bWF2ZW4tc25hcHNob3RzOjRiMzc4NjUzNTkxYzY3MjJkNDQwODYzYWFmODllMzhk'
+bWF2ZW4tc25hcHNob3RzOjRiMzc4NjUzNTkxYzY3MjJkNDQwODYzYWFmODllMzhk----> id of component which is unique across nexus
+
